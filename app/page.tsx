@@ -447,7 +447,7 @@ export default function Home() {
         }
 
         // Create a new post object
-        const newPost = {
+        const newPost: Post & { comments?: { user: User; text: string; timeAgo: string }[] } = {
             id: Date.now(), // Use timestamp as a simple unique ID
             user: currentUser,
             content: postText,
