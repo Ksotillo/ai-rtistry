@@ -37,7 +37,7 @@ export default function StoryViewer({ activeStory, onClose }: StoryViewerProps) 
                 clearInterval(timer);
             };
         }
-    }, [activeStory, onClose]);
+    }, [activeStory, onClose, storyTimer]);
 
     if (!activeStory) return null;
 

@@ -326,7 +326,7 @@ export default function Settings({
             <div className="flex flex-col sm:flex-row sm:items-center justify-between">
               <div className="mb-3 sm:mb-0">
                 <h4 className="font-medium mb-1">Activity Status</h4>
-                <p className="text-sm text-gray-500">Let other artists know when you're active</p>
+                <p className="text-sm text-gray-500">Let other artists know when you&apos;re active</p>
               </div>
               <label className="relative inline-flex items-center cursor-pointer">
                 <input type="checkbox" className="sr-only peer" defaultChecked />
