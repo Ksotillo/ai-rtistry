@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X, Home as HomeIcon, MessageSquare, Users, Bell, Settings } from "lucide-react";
-import { MobileMenuProps } from "@/app/types";
+import { MobileMenuProps } from "@/app/types/index";
 import AvatarImage from "../ui/AvatarImage";
 
 export default function MobileMenu({ currentUser, activeSection, onSectionChange }: MobileMenuProps) {
